@@ -1,0 +1,28 @@
+[
+{
+  "name":"com.diozero.internal.provider.mock.MockDeviceFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockAnalogInputDevice"
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockAnalogOutputDevice"
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockDigitalInputDevice"
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockDigitalInputOutputDevice"
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockDigitalOutputDevice",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","com.diozero.internal.provider.mock.MockDeviceFactory","int","boolean"] }]
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockPwmOutputDevice"
+},
+{
+  "name":"com.diozero.internal.provider.mock.MockServoDevice"
+}
+]

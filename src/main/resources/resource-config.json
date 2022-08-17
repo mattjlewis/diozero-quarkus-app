@@ -1,0 +1,33 @@
+{
+  "resources":{
+  "includes":[
+    {
+      "pattern":"\\QMETA-INF/services/com.diozero.internal.spi.BoardInfoProvider\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/com.diozero.internal.spi.NativeDeviceFactoryInterface\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.tinylog.configuration.ConfigurationLoader\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.tinylog.provider.LoggingProvider\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.tinylog.writers.Writer\\E"
+    }, 
+    {
+      "pattern":"boarddefs/.*\\.txt$"
+    }, 
+    {
+      "pattern":"lib/.*/.*$"
+    }, 
+    {
+      "pattern":"\\Qtinylog.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qmock-board-info.properties\\E"
+    }
+  ]},
+  "bundles":[]
+}
