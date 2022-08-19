@@ -1,8 +1,11 @@
 [
 {
+  "name":"[Lcom.diozero.internal.provider.builtin.gpio.GpioLine;"
+},
+{
   "name":"com.diozero.api.I2CDeviceInterface$I2CMessage",
   "fields":[
-    {"name":"flags"}, 
+    {"name":"flags"},
     {"name":"len"}
   ]
 },
@@ -48,36 +51,22 @@
   "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
 },
 {
-  "name":"java.lang.String",
-  "methods":[
-    {"name":"lastIndexOf","parameterTypes":["int"] }, 
-    {"name":"substring","parameterTypes":["int"] }
-  ]
-},
-{
-  "name":"java.lang.System",
-  "methods":[
-    {"name":"getProperty","parameterTypes":["java.lang.String"] }, 
-    {"name":"setProperty","parameterTypes":["java.lang.String","java.lang.String"] }
-  ]
-},
-{
   "name":"java.util.ArrayList",
   "methods":[
-    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"<init>","parameterTypes":[] },
     {"name":"add","parameterTypes":["java.lang.Object"] }
   ]
 },
 {
   "name":"sun.management.VMManagementImpl",
   "fields":[
-    {"name":"compTimeMonitoringSupport"}, 
-    {"name":"currentThreadCpuTimeSupport"}, 
-    {"name":"objectMonitorUsageSupport"}, 
-    {"name":"otherThreadCpuTimeSupport"}, 
-    {"name":"remoteDiagnosticCommandsSupport"}, 
-    {"name":"synchronizerUsageSupport"}, 
-    {"name":"threadAllocatedMemorySupport"}, 
+    {"name":"compTimeMonitoringSupport"},
+    {"name":"currentThreadCpuTimeSupport"},
+    {"name":"objectMonitorUsageSupport"},
+    {"name":"otherThreadCpuTimeSupport"},
+    {"name":"remoteDiagnosticCommandsSupport"},
+    {"name":"synchronizerUsageSupport"},
+    {"name":"threadAllocatedMemorySupport"},
     {"name":"threadContentionMonitoringSupport"}
   ]
 }

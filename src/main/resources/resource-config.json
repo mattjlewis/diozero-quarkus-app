@@ -17,10 +17,10 @@
       "pattern":"\\QMETA-INF/services/org.tinylog.writers.Writer\\E"
     }, 
     {
-      "pattern":"boarddefs/.*\\.txt$"
+      "pattern":"^boarddefs/.*\\.txt$"
     }, 
     {
-      "pattern":"lib/.*/.*$"
+      "pattern":"^lib/.*/.*\\.(so|dll|dylib)$"
     }, 
     {
       "pattern":"\\Qtinylog.properties\\E"

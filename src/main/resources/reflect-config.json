@@ -1,5 +1,37 @@
 [
 {
+  "name":"com.diozero.internal.board.allwinner.AllwinnerH5BoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.allwinner.AllwinnerH6BoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.allwinner.AllwinnerSun8iBoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.beaglebone.BeagleBoneBoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.chip.ChipBoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.odroid.OdroidBoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.raspberrypi.RaspberryPiBoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.diozero.internal.board.tinkerboard.TinkerBoardBoardInfoProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
   "name":"com.diozero.internal.provider.mock.MockDeviceFactory",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
