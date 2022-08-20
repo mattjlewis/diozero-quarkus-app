@@ -32,6 +32,11 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"java.io.FileDescriptor",
+  "methods":[{"name":"<init>","parameterTypes":[] }],
+  "fields":[{"name":"fd"}]
+},
+{
   "name":"com.diozero.internal.provider.mock.MockDeviceFactory",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },

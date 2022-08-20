@@ -50,27 +50,23 @@ public class GpioResource {
 
 	@Path("{gpio}")
 	public Response value(@PathParam("gpio") int gpio) {
-		System.out.println("getting gpio " + gpio + " value");
 		return Response.ok(Boolean.valueOf(deviceFactory.getGpioValue(gpio) == 0 ? false : true)).build();
 	}
 
 	@Path("{gpio}/on")
 	public Response on(@PathParam("gpio") int gpio) {
-		System.out.println("setting gpio " + gpio + " on");
 		gpios.computeIfAbsent(Integer.valueOf(gpio), i -> new DigitalOutputDevice(i.intValue())).on();
 		return Response.ok().build();
 	}
 
 	@Path("{gpio}/off")
 	public Response off(@PathParam("gpio") int gpio) {
-		System.out.println("setting gpio " + gpio + " off");
 		gpios.computeIfAbsent(Integer.valueOf(gpio), i -> new DigitalOutputDevice(i.intValue())).off();
 		return Response.ok().build();
 	}
 
 	@Path("{gpio}/toggle")
 	public Response toggle(@PathParam("gpio") int gpio) {
-		System.out.println("toggling gpio " + gpio + " value");
 		gpios.computeIfAbsent(Integer.valueOf(gpio), i -> new DigitalOutputDevice(gpio)).toggle();
 		return Response.ok().build();
 	}
